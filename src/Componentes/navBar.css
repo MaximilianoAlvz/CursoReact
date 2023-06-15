@@ -1,25 +1,55 @@
-.headerNav {
-  width: 100%;
-  background-color: rgb(89, 49, 49);
-  position: fixed;
+.header {
   top: 0;
 }
-.headerNav .nav ul {
-  list-style: none;
+.header .navbar {
+  height: 40px;
+}
+.header .navbar .navUl {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  height: 100%;
+  background-color: lightblue;
+  list-style: none;
+}
+.header .navbar .navUl li {
+  position: relative;
+  height: 100%;
+  padding-inline: 10px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header .navbar .navUl li:hover {
+  background-color: aqua;
+}
+.header .navbar .navUl li a {
+  height: 100%;
+  display: flex;
   align-items: center;
-}
-.headerNav .nav ul a {
   text-decoration: none;
-  color: white;
-  font-weight: 800;
-  padding: 10px;
-  border-radius: 3%;
+  font-weight: 700;
+  color: black;
 }
-.headerNav .nav ul a:hover {
-  background-color: rgb(163, 92, 92);
+.header .navbar .navUl li .subCategorias {
+  background-color: lightblue;
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+}
+.header .navbar .navUl li .subCategorias li {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header .navbar .navUl .categorias:hover .subCategorias {
+  display: flex;
 }
 
 /*# sourceMappingURL=navBar.css.map */
