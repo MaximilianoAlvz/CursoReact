@@ -1,0 +1,7 @@
+.greeting {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    color: lightblue;
+}

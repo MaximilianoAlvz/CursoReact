@@ -51,5 +51,14 @@
 .header .navbar .navUl .categorias:hover .subCategorias {
   display: flex;
 }
+.header .navbar .navUl .contenedorCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .navbar .navUl .cartIcon {
 
+  height: 30px;
+  width: 30px;
+}
 /*# sourceMappingURL=navBar.css.map */

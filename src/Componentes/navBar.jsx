@@ -1,5 +1,6 @@
 import { flexbox, width } from "@mui/system";
 import "./navBar.css";
+import CartWidget from "./CartWidget";
 
 const Navbar = () =>{
     
@@ -8,7 +9,7 @@ const Navbar = () =>{
         <header className="header">
         <nav className="navbar">
             <ul className="navUl">
-                <li><a href="">HOME</a></li>
+                <li><a href="">RYMA COMPUTACION</a></li>
                 <li className="categorias"><a href="">CATEGORIS</a>
                     <ul className="subCategorias">
                         <li>computers</li>
@@ -17,6 +18,7 @@ const Navbar = () =>{
                     </ul>
                 </li>
                 <li><a href="">CONTACT</a></li>
+                <CartWidget/>
             </ul>
         </nav>
     </header>
