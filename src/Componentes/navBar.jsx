@@ -1,4 +1,3 @@
-import { flexbox, width } from "@mui/system";
 import "./navBar.css";
 import CartWidget from "./CartWidget";
 
